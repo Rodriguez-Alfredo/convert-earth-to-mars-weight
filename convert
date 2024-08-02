@@ -1,0 +1,20 @@
+#include <iostream>
+
+int main() {
+// Creating variables and type  
+double weight;
+double mars;
+
+// Asking user for the weight information, either whole or decimal number
+std::cout << "Enter the weight? ";
+
+// Assigning the input from the user to the variable 'weight'
+std::cin >> weight;
+
+// Converting weight to mars
+mars = (weight / 9.81) * 3.711;
+
+// Displaying the converted weight to the user
+std::cout << "The weight on mars is " << mars << "." << "\n";
+
+}
